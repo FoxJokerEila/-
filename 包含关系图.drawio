@@ -5,19 +5,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MTlcmfKueNscHB39uHmk-1" value="FormDetail" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="190" y="250" width="430" height="350" as="geometry" />
+          <mxGeometry x="190" y="250" width="200" height="350" as="geometry" />
         </mxCell>
         <mxCell id="MTlcmfKueNscHB39uHmk-3" value="FormContainer" style="html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="324" y="270" width="90" height="310" as="geometry" />
+          <mxGeometry x="270" y="270" width="90" height="310" as="geometry" />
         </mxCell>
         <mxCell id="MTlcmfKueNscHB39uHmk-4" value="PageRender" style="html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="510" y="270" width="90" height="310" as="geometry" />
+          <mxGeometry x="450" y="270" width="90" height="310" as="geometry" />
         </mxCell>
         <mxCell id="MTlcmfKueNscHB39uHmk-5" value="实现表单功能" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="460" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MTlcmfKueNscHB39uHmk-6" value="表单初始化，渲染表单，外壳" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="450" width="80" height="30" as="geometry" />
+        <mxCell id="MTlcmfKueNscHB39uHmk-6" value="表单初始化，渲染表单外壳" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="450" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MTlcmfKueNscHB39uHmk-7" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTlcmfKueNscHB39uHmk-4" target="MTlcmfKueNscHB39uHmk-3">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MTlcmfKueNscHB39uHmk-8" value="渲染具体页面内容，表单项，解析schema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="450" width="90" height="30" as="geometry" />
+          <mxGeometry x="450" y="450" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
