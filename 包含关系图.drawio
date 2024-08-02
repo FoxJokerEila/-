@@ -28,6 +28,41 @@
         <mxCell id="MTlcmfKueNscHB39uHmk-8" value="渲染具体页面内容，表单项，解析schema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="450" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-10" value="表单初始化" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fixedWidth=0;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="640" width="195" height="176" as="geometry">
+            <mxRectangle x="195" y="640" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-11" value="解析schema" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-10">
+          <mxGeometry y="26" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-12" value="拉接口判断是否为计算表单" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-10">
+          <mxGeometry y="56" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-13" value="拉接口获取表单默认值" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-10">
+          <mxGeometry y="86" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-14" value="设置表单默认值" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-10">
+          <mxGeometry y="116" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-15" value="当actionEngine和数据源就绪时，调用JS面板中的onFormReady方法" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=visible;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-10">
+          <mxGeometry y="146" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-18" value="PageRenderer作用" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="640" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-19" value="加载数据源dataSource" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-18">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-20" value="加载动作引擎actionEngine" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-18">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-21" value="通知表单组件以上两部分加载完成" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-18">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-22" value="监听schema修改事件，重新解析schema，渲染页面内容" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=visible;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="MTlcmfKueNscHB39uHmk-18">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
