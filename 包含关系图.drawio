@@ -16,7 +16,7 @@
         <mxCell id="MTlcmfKueNscHB39uHmk-5" value="实现表单功能" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="460" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MTlcmfKueNscHB39uHmk-6" value="表单初始化，渲染表单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MTlcmfKueNscHB39uHmk-6" value="表单初始化，渲染表单，外壳" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="450" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MTlcmfKueNscHB39uHmk-7" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTlcmfKueNscHB39uHmk-4" target="MTlcmfKueNscHB39uHmk-3">
@@ -24,6 +24,9 @@
             <mxPoint x="270" y="860" as="sourcePoint" />
             <mxPoint x="430" y="860" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MTlcmfKueNscHB39uHmk-8" value="渲染具体页面内容，表单项，解析schema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
