@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="LoVdSpaz20xGBIXguYWv">
-    <mxGraphModel dx="855" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="416" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,7 +216,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-8" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;FormContainer&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1320" y="240" width="130" height="1240" as="geometry" />
+          <mxGeometry x="1320" y="240" width="135" height="1240" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
           <mxGeometry x="60" y="80" width="10" height="80" as="geometry" />
@@ -233,8 +233,8 @@
         <mxCell id="bCVCQJ4ItA6XDc_331jL-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
           <mxGeometry x="60" y="560" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bCVCQJ4ItA6XDc_331jL-28" value="调用onFormFieldChange" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
-          <mxGeometry x="-5" y="830" width="140" height="80" as="geometry" />
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
+          <mxGeometry x="60" y="830" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="bCVCQJ4ItA6XDc_331jL-8" source="bCVCQJ4ItA6XDc_331jL-12" target="bCVCQJ4ItA6XDc_331jL-28">
           <mxGeometry relative="1" as="geometry">
@@ -246,7 +246,7 @@
               <mxPoint x="280" y="480" />
               <mxPoint x="280" y="500" />
               <mxPoint x="265" y="500" />
-              <mxPoint x="265" y="870" />
+              <mxPoint x="265" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -324,7 +324,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-36" value="判断是否为计算表单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="1080" width="130" height="30" as="geometry" />
+          <mxGeometry x="1460" y="1120" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-38" value="&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;解析schema&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="bCVCQJ4ItA6XDc_331jL-10" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -365,13 +365,14 @@
             <mxPoint x="1255" y="630.0285714285715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bCVCQJ4ItA6XDc_331jL-45" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-45" value="&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;调用onFormFieldChange&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="bCVCQJ4ItA6XDc_331jL-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1260" y="610" as="sourcePoint" />
+            <mxPoint x="1390" y="1089.97" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1290" y="640" />
+              <mxPoint x="1420" y="1090" />
+              <mxPoint x="1420" y="1120" />
             </Array>
-            <mxPoint x="1265" y="640.0285714285715" as="targetPoint" />
+            <mxPoint x="1395" y="1119.9985714285715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-46" value="&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;调用onFormReady&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="bCVCQJ4ItA6XDc_331jL-22">
