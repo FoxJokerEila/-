@@ -299,15 +299,18 @@
           <mxGeometry x="1140" y="240" width="30" height="1240" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-26">
-          <mxGeometry x="5" y="80" width="20" height="1140" as="geometry" />
+          <mxGeometry x="10" y="80" width="10" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-30" value="用户修改表单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1191" y="1080" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bCVCQJ4ItA6XDc_331jL-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="bCVCQJ4ItA6XDc_331jL-28">
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="bCVCQJ4ItA6XDc_331jL-27" target="bCVCQJ4ItA6XDc_331jL-28">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1165" y="1110" as="sourcePoint" />
             <mxPoint x="1310" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="1110" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-35" value="&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;判断是否为计算表单&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="bCVCQJ4ItA6XDc_331jL-12" parent="1">
