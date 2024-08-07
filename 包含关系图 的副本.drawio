@@ -216,10 +216,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-8" value="&lt;span style=&quot;font-weight: 700; text-wrap: nowrap;&quot;&gt;FormContainer&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1040" y="240" width="100" height="300" as="geometry" />
+          <mxGeometry x="1040" y="240" width="115" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-10" value="解析schema" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
+          <mxGeometry x="7.5" y="80" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-12" value="判断是否为计算表单" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
+          <mxGeometry y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-13" value="设置表单默认值" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
+          <mxGeometry y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-9" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;PageRenderer&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1320" y="240" width="100" height="300" as="geometry" />
+          <mxGeometry x="1320" y="240" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-11" value="加载数据源" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-9">
+          <mxGeometry x="20" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-14" value="加载动作引擎" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-9">
+          <mxGeometry y="200" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
