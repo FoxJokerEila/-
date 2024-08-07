@@ -395,10 +395,11 @@
             <mxPoint x="1665" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u2fiPTeOg2q4hX7yK24j-5" value="&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;调用onMounted&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="u2fiPTeOg2q4hX7yK24j-5" value="&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;调用onMounted&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="bCVCQJ4ItA6XDc_331jL-24" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1660" y="940" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="1690" y="940" />
               <mxPoint x="1690" y="970" />
             </Array>
             <mxPoint x="1664.9999999999995" y="970" as="targetPoint" />
