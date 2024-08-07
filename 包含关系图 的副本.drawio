@@ -236,6 +236,20 @@
         <mxCell id="bCVCQJ4ItA6XDc_331jL-28" value="调用onFormFieldChange" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
           <mxGeometry x="-5" y="830" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="bCVCQJ4ItA6XDc_331jL-8" source="bCVCQJ4ItA6XDc_331jL-12" target="bCVCQJ4ItA6XDc_331jL-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="870" as="targetPoint" />
+            <mxPoint x="130" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="265" y="240" />
+              <mxPoint x="265" y="450" />
+              <mxPoint x="280" y="450" />
+              <mxPoint x="280" y="490" />
+              <mxPoint x="265" y="490" />
+              <mxPoint x="265" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-9" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;PageRenderer&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1600" y="240" width="110" height="1240" as="geometry" />
         </mxCell>
@@ -289,20 +303,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1165" y="1110" as="sourcePoint" />
             <mxPoint x="1310" y="1110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bCVCQJ4ItA6XDc_331jL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" target="bCVCQJ4ItA6XDc_331jL-28">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1460" y="1110" as="targetPoint" />
-            <mxPoint x="1450" y="480" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1585" y="480" />
-              <mxPoint x="1585" y="690" />
-              <mxPoint x="1600" y="690" />
-              <mxPoint x="1600" y="730" />
-              <mxPoint x="1585" y="730" />
-              <mxPoint x="1585" y="1110" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
