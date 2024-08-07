@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="LoVdSpaz20xGBIXguYWv">
-    <mxGraphModel dx="499" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1761" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,22 +219,22 @@
           <mxGeometry x="1320" y="240" width="130" height="1240" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-10" value="解析schema" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
-          <mxGeometry x="7.5" y="80" width="100" height="80" as="geometry" />
+          <mxGeometry x="15" y="80" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-12" value="判断是否为计算表单" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
-          <mxGeometry y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="5" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-13" value="设置表单默认值" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
-          <mxGeometry y="310" width="120" height="80" as="geometry" />
+          <mxGeometry x="5" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-18" value="表单就绪" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
-          <mxGeometry y="430" width="120" height="80" as="geometry" />
+          <mxGeometry x="5" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-22" value="调用onFormReady" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
-          <mxGeometry y="560" width="120" height="80" as="geometry" />
+          <mxGeometry x="5" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-28" value="调用onFormFieldChange" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-8">
-          <mxGeometry x="-10" y="830" width="140" height="80" as="geometry" />
+          <mxGeometry x="-5" y="830" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-9" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;PageRenderer&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1600" y="240" width="110" height="1240" as="geometry" />
@@ -249,13 +249,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-11" value="加载数据源" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-9">
-          <mxGeometry x="20" y="80" width="60" height="80" as="geometry" />
+          <mxGeometry x="25" y="80" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-14" value="加载动作引擎" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-9">
-          <mxGeometry y="200" width="100" height="80" as="geometry" />
+          <mxGeometry x="5" y="200" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-9">
-          <mxGeometry x="45" y="430" width="10" height="80" as="geometry" />
+          <mxGeometry x="50" y="430" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="bCVCQJ4ItA6XDc_331jL-9" source="bCVCQJ4ItA6XDc_331jL-14">
           <mxGeometry relative="1" as="geometry">
@@ -268,7 +268,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-24" value="调用onMounted" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bCVCQJ4ItA6XDc_331jL-9">
-          <mxGeometry x="-10" y="680" width="120" height="80" as="geometry" />
+          <mxGeometry x="-5" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bCVCQJ4ItA6XDc_331jL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="bCVCQJ4ItA6XDc_331jL-16" target="bCVCQJ4ItA6XDc_331jL-18">
           <mxGeometry relative="1" as="geometry" />
@@ -285,7 +285,7 @@
         <mxCell id="bCVCQJ4ItA6XDc_331jL-30" value="用户修改表单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1191" y="1080" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bCVCQJ4ItA6XDc_331jL-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="bCVCQJ4ItA6XDc_331jL-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="bCVCQJ4ItA6XDc_331jL-28">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1165" y="1110" as="sourcePoint" />
             <mxPoint x="1310" y="1110" as="targetPoint" />
